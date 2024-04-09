@@ -1,0 +1,52 @@
+body{
+    background: black;
+}
+.post{
+    margin: auto;
+    background: white;
+    width: 560px;
+    height: 530px;
+}
+.post-body img{
+    object-fit: contain;
+}
+.post-header{
+    display : flex;
+}
+.post-header img{
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+}
+.info-name{
+   margin-block: auto;
+   width: 90%;
+}
+.info-name h3,h5{
+    margin: 0;
+    text-align: left;
+}
+.post-img{
+    padding: 5px;
+}
+.post-img img{
+    padding-left: 10px;
+    width: 30px;
+    height: 30px;
+    gap:20px;
+}
+
+.post-img img:nth-child(4){
+    margin-left: 65%;
+}
+p{
+    text-align: justify;
+    margin: 0;
+    padding: 8px;
+}
+p a{
+    text-decoration: none;
+}
+p a:hover{
+   color: red;
+}
